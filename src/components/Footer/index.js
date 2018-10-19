@@ -28,7 +28,9 @@ class Footer extends Component {
             }}
           >
             <h1 style={{ margin: 0 }}>
-              <p>Footer Component {this.props.bg1}</p>
+              <p>
+
+Copyright 2018 Bay Media | All Rights Reserved {this.props.bg1}</p>
             </h1>
           </div>
         </div>
