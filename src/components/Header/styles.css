@@ -15,7 +15,7 @@ body {
 
 header.header {
   min-height: 61vw;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   background-image: linear-gradient(to right top,
     #29aae4,
     #009dfd,
@@ -122,7 +122,6 @@ header.header {
   z-index: 2;
   height: 81vw;
   width: 100%;
-  /* border-top: 2px solid red; */
   /* height: 81vh; */
   max-width: 80rem;
   max-height: 50rem;
@@ -130,23 +129,17 @@ header.header {
 
 @media screen and (min-width: 462px) {
   .background-svg {
-    top: 0;
+    /* top: 0; */
     /* min-height: 40rem; */
     
     background: url("https://res.cloudinary.com/bshano/image/upload/v1535124838/Baymedia/dublin-airport-white3.svg") no-repeat;
     background-size: contain;
-    
-    /* border-top: 2px solid green; */
+
   }
 }
 
 @media screen and (min-width: 930px) {
   .background-svg {
-    background: url("https://res.cloudinary.com/bshano/image/upload/v1535124838/Baymedia/dublin-airport-white3.svg") no-repeat;
-    /* max-height: 61vh; */
-    /* background-position: top left; */
-    background-size: cover;
-    /* border-top: 2px solid blue; */
   }
 }
 
