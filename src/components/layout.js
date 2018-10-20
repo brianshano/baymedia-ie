@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from './Header';
+import TopBar from './TopBar';
 import '../layouts/index.css';
 
 import Button from '@material-ui/core/Button';
@@ -27,6 +28,7 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
+    <TopBar />
     <Header bg="#6C1F22" />
     <div className="home-body">
       <p> 
@@ -45,12 +47,18 @@ const TemplateWrapper = ({ children }) => (
       </CardActions>
     </Card>
       <section className="section-1">
-        €356 per installed lamppost banner.<br />
-        *Includes, patented spring tensioned
-        bracket system, 2× 0.8 metre solid PVC, pre - stretched banner, printed
-        on both sides with UV protected ink.Brackets installed using solid
-        stainless steel banding, doubled over and in triplicate.Works done by
-        trained engineers to the highest standard.
+      <div className="section-1-text">
+        <div className="section-1-text-header">€356 per installed lamppost banner</div>
+        <div>Including:</div>
+        <ul>
+          
+          <li>Patented spring tensioned bracket system</li>
+          <li>2× 0.8 metre solid PVC, pre - stretched banner, printed
+          on both sides with UV protected ink</li>
+          <li>Brackets installed using solid stainless steel banding, doubled over and in triplicate</li>
+          <li>Implemented by trained engineers to the highest standard</li>
+        </ul>
+        </div>
       </section>
       <section className="section-3"> 
       <Card className="card card-list">
