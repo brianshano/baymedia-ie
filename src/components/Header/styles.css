@@ -16,12 +16,13 @@ body {
 header.header {
   min-height: 61vw;
   /* border: 2px solid white; */
-  background-image: linear-gradient(to right top,
+  /* background-image: linear-gradient(to right top,
     #29aae4,
     #009dfd,
     #148aff,
     #796bff,
-    #bf2bf8);
+    #bf2bf8); */
+    background-image: linear-gradient(to right top, #29aae4, #379fea, #5692ec, #7882e7, #986fda);
   z-index: 1;
   width: 100%;
 }
@@ -52,7 +53,13 @@ header.header {
 
 @media screen and (min-width: 930px) {
   header.header {
-    min-height: 81vh;
+    min-height: 73vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header.header {
+    min-height: 94vh;
   }
 }
 
@@ -116,7 +123,8 @@ header.header {
   /* height: 100%; */
   
   /* https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg */
-  background: url("https://res.cloudinary.com/bshano/image/upload/v1535125210/Baymedia/dublin-airport-mobile.svg") no-repeat;
+  /* background: url("https://res.cloudinary.com/bshano/image/upload/v1535125210/Baymedia/dublin-airport-mobile.svg") no-repeat; */
+  background: url('https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg');
   background-position: top right;
   background-size: cover;
   z-index: 2;
@@ -132,7 +140,8 @@ header.header {
     /* top: 0; */
     /* min-height: 40rem; */
     
-    background: url("https://res.cloudinary.com/bshano/image/upload/v1535124838/Baymedia/dublin-airport-white3.svg") no-repeat;
+    /* background: url("https://res.cloudinary.com/bshano/image/upload/v1535124838/Baymedia/dublin-airport-white2.svg") no-repeat; */
+    background: url('https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg');
     background-size: contain;
 
   }
@@ -147,7 +156,7 @@ header.header {
   background-color: #F4F7F8;
   z-index: 100;
   position: relative;
-  padding: 2rem 0;
+  padding: .5rem 0;
 }
 
 section {
@@ -163,4 +172,16 @@ section:nth-child(even) {
 section:nth-child(odd) {
   background-color: #F4F7F8;
   /* color: #f5f5f5; */
+}
+
+.cta-bar {
+  background-color: #444;
+  position: relative;
+  z-index: 104;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: .5rem 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
 }

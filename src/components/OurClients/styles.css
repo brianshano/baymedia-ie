@@ -1,0 +1,15 @@
+
+.client-item {
+  /* border: 1px solid black; */
+  background-color: white;
+  flex-basis: 6rem;
+  margin: .5rem 1rem;
+  align-self: flex-end;
+  height: 6rem;
+  display: flex;
+}
+
+.client-item-image {
+  /* border: 1px solid red; */
+  align-self: center;
+}

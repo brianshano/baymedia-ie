@@ -12,10 +12,10 @@ const IndexPage = () => (
     <HomeHero bg1="#6d6e70" />
     <HomeHero bg1="#6C1F22 " />
     <HomeHero bg1="#9BA3A4" /> */}
-    <ContactUs bg1="#9BA3A4" />
+    {/* <ContactUs bg1="#9BA3A4" /> */}
     <OurClients bg1="#6C1F22" />
-    <Link to="/lamp-post-flag-banners/"> Go to page 2 </Link>
-    <Footer bg1="#9BA3A4" />
+    {/* <Link to="/lamp-post-flag-banners/"> Go to page 2 </Link> */}
+    <Footer bg1="#444" />
   </Layout>
 );
 
