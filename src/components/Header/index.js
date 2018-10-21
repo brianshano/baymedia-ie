@@ -3,7 +3,8 @@ import React from 'react';
 import './styles.css';
 
 const Header = () => (
-  <header className="header">
+  <div>
+    <header className="header">
     <div className="header-content">
       <h1 className="company-logo">
         <span className="company-logo-bay"> Bay </span> Media
@@ -11,15 +12,13 @@ const Header = () => (
       <h2 className="company-tag"> Design dressing experts! </h2>
     </div>
     <div className="background-svg" />
-
-    {/* <Image publicId="Baymedia/dublin-airport.svg" /> */}
-    {/* <img
-            className="background-banners-svg"
-            src="https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg"
-          /> */}
-    {/* <img src="http://res.cloudinary.com/bshano/image/upload/v1535119715/Baymedia/dublin-airport1.svg" /> */}
-    {/* <div className="wave"> </div> */}
-  </header>
+    </header>
+    <div className="cta-bar">
+      <div>Call Us Today! +353 (0) 1 4545234</div>
+      <div>info@baymedia.ie</div>
+      <div>The Street Dressing Specialists</div>
+    </div>
+  </div>
 );
 
 export default Header;

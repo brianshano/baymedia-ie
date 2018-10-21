@@ -25,13 +25,19 @@ class Footer extends Component {
               maxWidth: '100%',
               color: 'white',
               padding: '1.45rem 1.0875rem'
+              
             }}
           >
-            <h1 style={{ margin: 0 }}>
-              <p>
+            <div style={{ 
+              margin: 0,
+              padding: 0,
+              fontFamily: 'Montserrat, sans-serif',
+              fontSize: '.8rem'
+              }}>
+              <div>
 
-Copyright 2018 Bay Media | All Rights Reserved {this.props.bg1}</p>
-            </h1>
+Copyright 2018 Bay Media | All Rights Reserved</div>
+            </div>
           </div>
         </div>
       </div>
