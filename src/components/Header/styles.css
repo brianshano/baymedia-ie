@@ -108,7 +108,7 @@ header.header {
 .background-svg {
   /* border: 1px solid white; */
   right: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   /* bottom: 20rem; */
   /* min-height: 40rem; */

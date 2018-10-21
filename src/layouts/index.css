@@ -8,7 +8,9 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 article,
@@ -796,13 +798,35 @@ body {
   background-image: url('https://res.cloudinary.com/bshano/image/upload/b_rgb:000000,f_auto,o_41/v1539986442/Baymedia/FedEx_banners_Dublin_Airport_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 18rem;
+  /* height: 1rem; */
   color: #f5f5f5e7;
   margin: 0 auto;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
+}
+
+.section-1-text {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.section-1-text-header {
+  font-weight: bold;
+}
+.section-1-text ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.section-1-text li {
+  flex-basis: 40%;
+  border: 1px solid rgba(21, 21, 21, 0.479);
+  background-color: rgba(21, 21, 21, 0.818);
+  color: rgba(255, 255, 255, 0.678);
+  padding: .5rem;
 }
 
 .section-3 {
