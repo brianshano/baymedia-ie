@@ -65,32 +65,25 @@ header.header {
 
 .header-content {
   /* padding: 1rem; */
+  position: fixed;
   z-index: 100;
 }
 
 .company-logo {
   color: #29aae4;
-  background-color: white;
-  border-radius: 0.2rem;
   width: 13rem;
   padding: 0.2rem;
   text-transform: uppercase;
   text-align: center;
   z-index: 101;
-  position: fixed;
-  top: 0;
-}
-
-.company-logo {
-  color: #29aae4;
   background-color: rgba(255, 255, 255, 0.63);
   border-radius: 0;
+  position: absolute;
   /* width: 100%; */
   /* padding: 0.2rem; */
   text-transform: uppercase;
   text-align: left;
   z-index: 101;
-  position: fixed;
   top: 5vw;
   left: 5vw;
 }

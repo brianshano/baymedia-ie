@@ -1,12 +1,13 @@
 
 .client-item {
-  /* border: 1px solid black; */
+  border: 1px solid rgba(0, 0, 0, 0.082);
   background-color: white;
-  flex-basis: 6rem;
-  margin: .5rem 1rem;
+  flex-basis: 7rem;
+  margin: 1rem;
   align-self: flex-end;
-  height: 6rem;
+  height: 7rem;
   display: flex;
+  padding: .5rem;
 }
 
 .client-item-image {
