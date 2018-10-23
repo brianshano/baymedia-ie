@@ -7,6 +7,7 @@
     "@material-ui/core": "^3.2.2",
     "gatsby": "^2.0.27",
     "gatsby-link": "^2.0.4",
+    "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-transformer-csv": "^2.0.2",
