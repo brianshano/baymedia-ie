@@ -13,46 +13,49 @@ class OurClients extends Component {
   }
 
   render() {
+    const iconUrl = 'https://res.cloudinary.com/bshano/image/upload';
+    // const iconFx = 'c_scale,e_grayscale,f_auto,w_200';
+    const iconFx = 'c_scale,f_auto,w_200';
     const clients = [
       {
         name: 'fedex', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/fedex.jpg',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/fedex.jpg`,
       },
       {
         name: 'curragh', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540153078/Baymedia/client%20logos/CurraghLOGO.jpg',
+        url: `${iconUrl}/${iconFx}/v1540153078/Baymedia/client%20logos/CurraghLOGO.jpg`,
       },
       {
         name: 'ladbrokes', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152588/Baymedia/client%20logos/ladbrokes-logo-640x258.png'
+        url: `${iconUrl}/${iconFx}/v1540152588/Baymedia/client%20logos/ladbrokes-logo-640x258.png`
       },
       // {
       //   name: 'newbridgeGrassroo', 
-      //   url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/grassroots.jpg',
+      //   url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/grassroots.jpg`,
       // },
       {
         name: 'dfs', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/DFS.jpg',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DFS.jpg`,
       },
       {
         name: 'carrick', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/carrick_400.png',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/carrick_400.png`,
       },
       {
         name: 'gathering', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540153306/Baymedia/client%20logos/thegathering.jpg',
+        url: `${iconUrl}/${iconFx}/v1540153306/Baymedia/client%20logos/thegathering.jpg`,
       },
       {
         name: 'daa', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/daa_logo.jpg',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/daa_logo.jpg`,
       },
       // {
       //   name: 'cluainmeala', 
-      //   url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/Cluan_meala_logo.jpg',
+      //   url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/Cluan_meala_logo.jpg`,
       // },
       {
         name: 'dubai', 
-        url: 'https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_200/v1540152499/Baymedia/client%20logos/DDF_logo.jpg',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DDF_logo.jpg`,
       },
     ];
     const listItems = clients.map((d) => <li className='client-item' alt={d.name} key={d.name}><img className="client-item-image" src={d.url}/></li>);
@@ -68,7 +71,7 @@ class OurClients extends Component {
             justifyContent: 'space-evenly',
             alignItems: 'center',
             alignContent: 'space-around',
-            backgroundColor: '#F4F7F8'
+            backgroundColor: '#F4F7F8',
         }}>
           {listItems}
 

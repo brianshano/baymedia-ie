@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 import Header from './Header';
 import TopBar from './TopBar';
-import '../layouts/index.css';
+import '../layouts/index.scss';
 
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
@@ -95,49 +95,52 @@ const TemplateWrapper = ({ children }) => (
         </div>
       </section>
       <section className="section-3"> 
-      <Card className="card card-list">
-      <CardContent>
-      <div><div className="card-heading">WHY LAMPPOST BANNER FLAGS?</div>
-          <ul>
-            <li>Massive impact</li>
-            <li>High recall</li>
-            <li>Attractive</li>
-            <li>Excellent value</li>
-            <li>Adds colour and vibrancy</li>
-            <li>Creates occasion</li>
-            <li>Urban promotion</li>
-            <li>Durable</li>
-          </ul>
-        </div>
-      </CardContent>
-    </Card>
+        <Card className="card card-list">
+        <CardContent>
+        <div><div className="card-heading">WHY LAMPPOST BANNER FLAGS?</div>
+            <ul>
+              <li>Massive impact</li>
+              <li>High recall</li>
+              <li>Attractive</li>
+              <li>Excellent value</li>
+              <li>Adds colour and vibrancy</li>
+              <li>Creates occasion</li>
+              <li>Urban promotion</li>
+              <li>Durable</li>
+            </ul>
+          </div>
+        </CardContent>
+      </Card>
 
-      <Card className="card card-list">
-      <CardContent>
-      <div><div className="card-heading">WHY BAY MEDIA?</div>
-          <ul>
-            <li>Trained engineers</li>
-            <li>Fully certified</li>
-            <li>Experienced planning team</li>
-            <li>Public liability insurance</li>
-            <li>Nationwide</li>
-            <li>Guaranteed quality</li>
-            <li>Excellent service</li>
-            <li>Proven success</li>
-          </ul>
-        </div>
+        <Card className="card card-list">
+        <CardContent>
+        <div><div className="card-heading">WHY BAY MEDIA?</div>
+            <ul>
+              <li>Trained engineers</li>
+              <li>Fully certified</li>
+              <li>Experienced planning team</li>
+              <li>Public liability insurance</li>
+              <li>Nationwide</li>
+              <li>Guaranteed quality</li>
+              <li>Excellent service</li>
+              <li>Proven success</li>
+            </ul>
+          </div>
 
-      </CardContent>
-    </Card>
-
-        
-</section>
+        </CardContent>
+      </Card>
+    </section>
     <section className="background-open-banner-frame"> 
       <div className="banner-flags"><strong>Specialising in Lamppost banner flags</strong>
-        <div>Using our experience in street dressing and outdoor general urban decoration we provide a range of services tailored to suit the needs of our clients.</div>
-
+        <div>Using our experience in street dressing and outdoor general urban decoration 
+          we provide a range of services tailored to suit the needs of our clients.</div>
+          <p></p>
         <strong>Why do we specialise in lamppost banner flags? </strong>
-        <div>Lamppost banner flags are an ideal, cost effective and highly efficient means of communicating with the public in a local setting. Lamppost banner flags engage directly with the public as they go about their daily business. Whether this is publicizing a festival or used for a sustained campaign such as marketing the town as a regional shopping destination.</div>
+        <div>Lamppost banner flags are an ideal, cost effective and highly efficient means of 
+          communicating with the public in a local setting that engage 
+          directly with the public as they go about their daily business. Whether
+          publicizing a festival or used for a sustained campaign such as marketing the town 
+          as a regional shopping destination.</div>
       </div>
       {/* <img src="https://res.cloudinary.com/bshano/image/upload/e_cartoonify,f_auto,fl_apng/e_auto_color/v1540132607/irish-open-trans.png"/>  */}
       <div className="background-open-banner">

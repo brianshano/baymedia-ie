@@ -1,3 +1,4 @@
+@import './variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html {
@@ -10,7 +11,7 @@ body {
   margin: 0;
   /* font-family: 'Nunito', sans-serif; */
   font-family: 'Montserrat', sans-serif;
-  background-color: #F4F7F8;
+  background-color: $light-background;
 
 }
 
@@ -730,12 +731,13 @@ body {
 
 .card {
   max-width: 24rem;
+  min-width: 16rem;
   margin: 0 auto;
 }
 .card-list {
-  margin: 2rem auto;
+  margin: 1rem auto;
   width: 40%;
-  height: 24rem; 
+  // height: 24rem; 
 }
 
 .card-colm {
@@ -846,6 +848,7 @@ body {
 .section-3 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -857,20 +860,19 @@ body {
 }
 
 .background-open-banner-frame {
-  /* background-image: linear-gradient(to right bottom, #d9e5f3, #bcd3ed, #a0c0e8, #83aee2, #649cdc); */
   background-image: linear-gradient(to left, #d9e5f3, #bcd3ed, #a0c0e8, #83aee2, #649cdc);
   padding: 0;
   margin: 0;
   position: relative;
   right: 0;
   width: 100%;
+  text-align: justify;
+
 }
 .background-open-banner-inner {
-  /* background-color: rgba(255, 255, 255, 0.185); */
   width: 100%;
   right: 0;
   position: static;
-  /* height: 30rem; */
 }
 .background-open-banner-inner {
   height: 30rem;
@@ -883,6 +885,14 @@ body {
   background-position: top right;
   background-size: 44vw;
   /* position: static; */
+
+  @media (max-width: 28rem) {
+    height: 40rem;
+  }
+  @media (max-width: 58rem) {
+    background-image: url('https://res.cloudinary.com/bshano/image/upload/o_25/v1540132607/irish-open-trans.png');
+    background-size: cover;
+  }
 }
 
 
