@@ -725,7 +725,7 @@ pre tt:after {
 }
 
 body {
-  background-color: #29aae4;
+  background-color: #f4f7f8;
   position: relative;
 }
 
@@ -737,26 +737,8 @@ body {
 .card-list {
   margin: 1rem auto;
   width: 40%;
-  // height: 24rem; 
 }
 
-.card-colm {
-  margin: 2rem auto;
-}
-
-.card-profile {
-  display: flex;
-  align-items: center;
-}
-.card-mugshot {
-  height: 4rem;
-  width: 4rem;
-}
-.card-mugshot-name {
-  font-weight: 900;
-  color: #444;
-  padding: 0 1rem;
-}
 .header-hero {
   background-image: linear-gradient(
     to right top,
@@ -795,115 +777,4 @@ body {
   right: 0;
   top: 0;
   z-index: -1;
-}
-
-.section-1 {
-  background-image: url('https://res.cloudinary.com/bshano/image/upload/b_rgb:000000,f_auto,o_41/v1539986442/Baymedia/FedEx_banners_Dublin_Airport_1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* height: 1rem; */
-  color: #f5f5f5e7;
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  align-items: center;
-}
-
-.section-1-text {
-  max-width: 50rem;
-  margin: 0 auto;
-}
-.section-1-text-header {
-  font-weight: bold;
-}
-.section-1-text ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 1rem;
-}
-.section-1-text li {
-  flex-basis: 18rem;
-  max-height: 10rem;
-  border: 1px solid rgba(21, 21, 21, 0.479);
-  background-color: rgba(21, 21, 21, 0.818);
-  color: rgba(255, 255, 255, 0.678);
-  padding: .5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-.icon {
-  background-color: rgba(255, 255, 255, 0.637);
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  align-self: center;
-  display: flex;
-}
-.section-3 {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.card-heading {
-  color: rgb(136, 13, 155);
-  padding: 1rem 0;
-  font-weight: bold;
-}
-
-.background-open-banner-frame {
-  background-image: linear-gradient(to left, #d9e5f3, #bcd3ed, #a0c0e8, #83aee2, #649cdc);
-  padding: 0;
-  margin: 0;
-  position: relative;
-  right: 0;
-  width: 100%;
-  text-align: justify;
-
-}
-.background-open-banner-inner {
-  width: 100%;
-  right: 0;
-  position: static;
-}
-.background-open-banner-inner {
-  height: 30rem;
-  /* background-image: url('https://res.cloudinary.com/bshano/image/upload/c_scale,e_vibrance:77,w_446/v1540132607/irish-open-trans.png'); */
-  /* background-image: url('https://res.cloudinary.com/bshano/image/upload/c_scale,fl_getinfo.preserve_transparency,h_559,o_47,w_248,z_1.5/v1540134529/irish-open-svg.svg'); */
-  background-image: url('https://res.cloudinary.com/bshano/image/upload/o_75/v1540132607/irish-open-trans.png');
-  /* background-image: url('http://res.cloudinary.com/bshano/image/upload/v1540132607/irish-open-trans.png'); */
-  /* background-image: url('https://res.cloudinary.com/bshano/image/upload/e_cartoonify,o_41,f_auto,fl_apng/o_25,e_auto_color/v1540132607/irish-open-trans.png'); */
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 44vw;
-  /* position: static; */
-
-  @media (max-width: 28rem) {
-    height: 40rem;
-  }
-  @media (max-width: 58rem) {
-    background-image: url('https://res.cloudinary.com/bshano/image/upload/o_25/v1540132607/irish-open-trans.png');
-    background-size: cover;
-  }
-}
-
-
-.banner-flags {
-  position: absolute;
-  /* background-color: rgba(97, 97, 255, 0.144); */
-  max-width: 40rem;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }

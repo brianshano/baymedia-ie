@@ -1,0 +1,24 @@
+
+.card-colm {
+  margin: 2rem auto;
+}
+
+.card-background {
+  background-color: #f4f7f8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23ffffff' fill-opacity='0.47'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+    padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.card-profile {
+  display: flex;
+  align-items: center;
+}
+.card-mugshot {
+  height: 4rem;
+  width: 4rem;
+}
+.card-mugshot-name {
+  font-weight: 900;
+  color: #444;
+  padding: 0 1rem;
+}

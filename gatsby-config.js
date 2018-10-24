@@ -11,8 +11,8 @@ module.exports = {
         name: `BayMedia IE`,
         short_name: `Baymedia`,
         start_url: `/`,
-        background_color: `#29aae4`,
-        theme_color: `#29aae4`,
+        background_color: `#f4f7f8`,
+        theme_color: `#f4f7f8`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
