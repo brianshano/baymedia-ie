@@ -1,6 +1,6 @@
 import React from 'react';
 // import Link from 'gatsby-link';
-import './styles.css';
+import './styles.scss';
 
 const Header = () => (
   <div>
@@ -8,8 +8,8 @@ const Header = () => (
     <div className="header-content">
       <h1 className="company-logo">
         <span className="company-logo-bay"> Bay </span> Media
-        <h2 className="company-tag"> Design dressing experts! </h2>
       </h1>
+      <h2 className="company-tag"> Design dressing experts! </h2>
     </div>
     <div className="background-svg" />
     </header>
