@@ -45,7 +45,7 @@ class ContactUs extends Component {
           </CardContent>
 
         </Card>
-        <form name="contact" method="POST" netlify>
+        {/* <form name="contact" method="POST" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
@@ -64,7 +64,7 @@ class ContactUs extends Component {
   <p>
     <button type="submit">Send</button>
   </p>
-</form>
+</form> */}
       </div>
     );
   }
