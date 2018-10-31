@@ -26,7 +26,9 @@ class ColmIntro extends Component {
             Our aim at Bay Media is to make a real change in peoples daily lives.  To transform the roads we daily travel on. To make your street an inspiration, exciting and memorable’
             </Typography>
             <div className="card-profile">
-            <Typography className="card-mugshot"><img alt="baymedia colm" src="https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,r_100,w_120/v1539984900/Baymedia/colm-oduil-baymedia.jpg"/></Typography>
+            {/* <Typography className="card-mugshot"><img alt="baymedia colm" src="https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,r_60,w_120/v1541021777/Baymedia/colm-headshot2.jpg"/></Typography> */}
+            <Typography className="card-mugshot"><img alt="baymedia colm" src="https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,q_auto:best,r_60,w_120/v1541024377/colm-headshot4.jpg"/></Typography>
+            
             <Typography className="card-mugshot-name">Colm O'Duil</Typography>
             </div>
           </CardContent>

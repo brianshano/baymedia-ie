@@ -6,6 +6,8 @@ import HomeSectionBannerFlags from '../components/HomeSectionBannerFlags';
 import HomeSectionWhyUs from '../components/HomeSectionWhyUs';
 import HomeSectionInstallDetails from '../components/HomeSectionInstallDetails';
 import HomeSectionColmIntro from '../components/HomeSectionColmIntro';
+import HomeSectionContactUs from '../components/HomeSectionContactUs';
+
 import Header from '../components/Header';
 
 import OurClients from '../components/OurClients';
@@ -17,11 +19,12 @@ const IndexPage = () => (
     <Layout>
       <HomeSectionColmIntro/>
       <HomeSectionInstallDetails/>
-      <HomeSectionWhyUs/>
+      <OurClients bg1="#6C1F22" />
       <HomeSectionBannerFlags/>
+      <HomeSectionContactUs/>
+      <HomeSectionWhyUs/>
       
       {/* <ContactUs bg1="#9BA3A4" /> */}
-      <OurClients bg1="#6C1F22" />
       <Link to="/lamp-post-flag-banners/"> Go to page 2 </Link>
       <Footer bg1="#444" />
     </Layout>
