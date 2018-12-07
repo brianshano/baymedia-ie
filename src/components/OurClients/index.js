@@ -18,52 +18,56 @@ class OurClients extends Component {
     const iconFx = 'c_scale,f_auto,w_200';
     const clients = [
       {
-        name: 'fedex', 
-        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/fedex.jpg`,
+        name: 'fedex',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/fedex.jpg`
       },
       {
-        name: 'curragh', 
-        url: `${iconUrl}/${iconFx}/v1540153078/Baymedia/client%20logos/CurraghLOGO.jpg`,
+        name: 'curragh',
+        url: `${iconUrl}/${iconFx}/v1540153078/Baymedia/client%20logos/CurraghLOGO.jpg`
       },
       {
-        name: 'ladbrokes', 
+        name: 'ladbrokes',
         url: `${iconUrl}/${iconFx}/v1540152588/Baymedia/client%20logos/ladbrokes-logo-640x258.png`
       },
       // {
-      //   name: 'newbridgeGrassroo', 
+      //   name: 'newbridgeGrassroo',
       //   url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/grassroots.jpg`,
       // },
       {
-        name: 'dfs', 
-        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DFS.jpg`,
+        name: 'dfs',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DFS.jpg`
       },
       {
-        name: 'carrick', 
-        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/carrick_400.png`,
+        name: 'carrick',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/carrick_400.png`
       },
       {
-        name: 'gathering', 
-        url: `${iconUrl}/${iconFx}/v1540153306/Baymedia/client%20logos/thegathering.jpg`,
+        name: 'gathering',
+        url: `${iconUrl}/${iconFx}/v1540153306/Baymedia/client%20logos/thegathering.jpg`
       },
       {
-        name: 'daa', 
-        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/daa_logo.jpg`,
+        name: 'daa',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/daa_logo.jpg`
       },
       // {
-      //   name: 'cluainmeala', 
+      //   name: 'cluainmeala',
       //   url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/Cluan_meala_logo.jpg`,
       // },
       {
-        name: 'dubai', 
-        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DDF_logo.jpg`,
-      },
+        name: 'dubai',
+        url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DDF_logo.jpg`
+      }
     ];
-    const listItems = clients.map((d) => <li className='client-item' alt={d.name} key={d.name}><img className="client-item-image" src={d.url}/></li>);
-
+    const listItems = clients.map(d => (
+      <li className="client-item" alt={d.name} key={d.name}>
+        <img alt={d.name} className="client-item-image" src={d.url} />
+      </li>
+    ));
 
     return (
       <div>
-        <section style={{
+        <section
+          style={{
             margin: '0 auto',
             maxWidth: '40rem',
             display: 'flex',
@@ -71,10 +75,10 @@ class OurClients extends Component {
             justifyContent: 'space-evenly',
             alignItems: 'center',
             alignContent: 'space-around',
-            backgroundColor: '#F4F7F8',
-        }}>
+            backgroundColor: '#F4F7F8'
+          }}
+        >
           {listItems}
-
         </section>
       </div>
     );

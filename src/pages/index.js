@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Layout from '../components/layout';
-import ContactUs from '../components/ContactUs';
 import HomeSectionBannerFlags from '../components/HomeSectionBannerFlags';
-import HomeSectionWhyUs from '../components/HomeSectionWhyUs';
+// import HomeSectionWhyUs from '../components/HomeSectionWhyUs';
+import HomeSectionBigText from '../components/HomeSectionBigText';
 import HomeSectionInstallDetails from '../components/HomeSectionInstallDetails';
 import HomeSectionColmIntro from '../components/HomeSectionColmIntro';
 import HomeSectionContactUs from '../components/HomeSectionContactUs';
@@ -17,14 +17,14 @@ const IndexPage = () => (
   <div>
     <Header bg="#6C1F22" />
     <Layout>
-      <HomeSectionColmIntro/>
-      <HomeSectionInstallDetails/>
+      <HomeSectionColmIntro />
+      <HomeSectionInstallDetails />
       <OurClients bg1="#6C1F22" />
-      <HomeSectionBannerFlags/>
-      <HomeSectionContactUs/>
-      <HomeSectionWhyUs/>
-      
-      {/* <ContactUs bg1="#9BA3A4" /> */}
+      <HomeSectionBannerFlags />
+      <HomeSectionContactUs />
+      <HomeSectionBigText />
+      {/* <HomeSectionWhyUs /> */}
+
       <Link to="/lamp-post-flag-banners/"> Go to page 2 </Link>
       <Footer bg1="#444" />
     </Layout>
