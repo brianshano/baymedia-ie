@@ -1,0 +1,61 @@
+.section-3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-heading {
+  color: rgb(136, 13, 155);
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.section-x {
+  width: 100%;
+  // border: 1px solid blue;
+  // background-color: #cd5c5c82;
+  // background: url('https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg');
+  // background-position: top right;
+  // background-size: cover;
+  // background-color: #b698e4;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a07bdf+0,ffffff+72&0.16+0,1+93 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(160, 123, 223, 0.16) 0%,
+    rgba(255, 255, 255, 0.81) 72%,
+    rgba(255, 255, 255, 1) 93%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(160, 123, 223, 0.16) 0%,
+    rgba(255, 255, 255, 0.81) 72%,
+    rgba(255, 255, 255, 1) 93%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(160, 123, 223, 0.16) 0%,
+    rgba(255, 255, 255, 0.81) 72%,
+    rgba(255, 255, 255, 1) 93%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29a07bdf', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.bigtext {
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: hsla(200, 0%, 0%, 0.7);
+
+  &__underline {
+    border: 3px solid #a07bdf;
+    text-align: center;
+    width: 16rem;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: sans-serif;
+  }
+}

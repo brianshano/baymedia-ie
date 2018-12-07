@@ -5,14 +5,21 @@ import './styles.scss';
 const Header = () => (
   <div>
     <header className="header">
-    <div className="header-content">
-      <h1 className="company-logo">
-        <span className="company-logo-bay"> Bay </span> Media
-      </h1>
-      <h2 className="company-tag"> Design dressing experts</h2>
-    </div>
-    <div className="background-svg" />
+      <div className="header-content">
+        <h1 className="company-logo">
+          <span className="company-logo-bay"> Bay </span> Media
+        </h1>
+        <h2 className="company-tag"> Design dressing experts</h2>
+      </div>
+      <div className="background-svg" />
     </header>
+    <div className="cta-bar1">
+      {/* <div className="people-bar"> */}
+      <div className="peoplepics peoplepics1" />
+      <div className="peoplepics peoplepics2" />
+      <div className="peoplepics peoplepics3" />
+      {/* </div> */}
+    </div>
     <div className="cta-bar">
       <div>Simple</div>
       <div>Elegant</div>

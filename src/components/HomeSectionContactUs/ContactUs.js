@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './ContactUs.scss';
 
-import Button from '@material-ui/core/Button';
+// import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
+// import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
@@ -11,8 +11,7 @@ class ContactUs extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-    };
+    this.state = {};
   }
 
   render() {
@@ -23,27 +22,29 @@ class ContactUs extends Component {
         <Card className="card card-colm">
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-            <address className="contact-us">
-              <div className="bold">Bay Media Ireland Limited</div>
-              <div>Weston Mills</div>
-              <div>Back Weston</div>
-              <div>Leixlip</div>
-              <div>Co. Kildare</div>
-            </address>
-            <div>
-              <div>Phone: 
+              <address className="contact-us">
+                <div className="bold">Bay Media Ireland Limited</div>
+                <div>Weston Mills</div>
+                <div>Back Weston</div>
+                <div>Leixlip</div>
+                <div>Co. Kildare</div>
+              </address>
+              <div>
+                <div>
+                  Phone:
                   <span itemprop="telephone">
                     <a href="tel:+35314545234">+353(0)14545234</a>
                   </span>
+                </div>
+                <div>
+                  Email:{' '}
+                  <a href="mailto:example@tutorialspark.com">
+                    info@baymedia.ie
+                  </a>
+                </div>
               </div>
-              <div>Email: <a href="mailto:example@tutorialspark.com">info@baymedia.ie</a></div>
-
-            </div>
-            
             </Typography>
-
           </CardContent>
-
         </Card>
         {/* <form name="contact" method="POST" netlify>
   <p>
@@ -71,4 +72,3 @@ class ContactUs extends Component {
 }
 
 export default ContactUs;
-
