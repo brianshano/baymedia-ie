@@ -202,12 +202,14 @@ section:nth-child(odd) {
 
 .people-bar {
   position: static;
-  border: 1px solid green;
   bottom: 20rem;
   z-index: 31;
   background-repeat: no-repeat;
 }
 .peoplepics {
+  @media (max-width: 910px) {
+    display: none;
+  }
   position: relative;
   background-color: transparent;
   z-index: 30;
@@ -221,6 +223,9 @@ section:nth-child(odd) {
     background-image: url('https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_300/v1543964841/Baymedia/people%20photos/lady_banner_summer.png');
   }
   &3 {
-    background-image: url('https://res.cloudinary.com/bshano/image/upload/v1544202181/Baymedia/people%20photos/people-street-dancing.png');
+    @media (min-width: 520px) {
+      display: block;
+      background-image: url('https://res.cloudinary.com/bshano/image/upload/v1544202181/Baymedia/people%20photos/people-street-dancing.png');
+    }
   }
 }
