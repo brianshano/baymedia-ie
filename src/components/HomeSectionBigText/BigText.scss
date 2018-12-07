@@ -43,11 +43,17 @@
 
 .bigtext {
   font-family: 'Montserrat', sans-serif;
-  padding: 2rem;
-  font-size: 2rem;
-  line-height: 2.2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
   text-align: center;
   color: hsla(200, 0%, 0%, 0.7);
+
+  @media (min-width: 510px) {
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
 
   &__underline {
     border: 3px solid #a07bdf;
