@@ -14,7 +14,7 @@ body {
 }
 
 header.header {
-  min-height: 61vw;
+  min-height: 59vw;
   /* border: 2px solid white; */
   /* background-image: linear-gradient(to right top,
     #29aae4,
@@ -36,7 +36,7 @@ header.header {
 
 @media screen and (min-width: 462px) {
   header.header {
-    /* min-height: 19rem; */
+    // min-height: 19rem;
   }
 }
 
@@ -60,7 +60,7 @@ header.header {
 
 @media screen and (min-width: 930px) {
   header.header {
-    min-height: 73vh;
+    min-height: 76vh;
   }
 }
 
@@ -78,21 +78,33 @@ header.header {
 
 .company-logo {
   color: #29aae4;
-  width: 13rem;
   padding: 0.2rem;
   text-transform: uppercase;
   text-align: center;
   z-index: 101;
   background-color: rgba(255, 255, 255, 0.63);
   border-radius: 0;
-  position: absolute;
   /* width: 100%; */
   /* padding: 0.2rem; */
   text-transform: uppercase;
-  text-align: left;
+  // text-align: center;
   z-index: 101;
-  top: 5vw;
-  left: 5vw;
+  position: relative;
+  // top: 5vw;
+  // left: 5vw;
+  // text-align: center;
+  // margin: 0 auto;
+  width: 100vw;
+}
+
+@media screen and (min-width: 462px) {
+  .company-logo {
+    position: absolute;
+    width: 13rem;
+    top: 5vw;
+    left: 5vw;
+    text-align: left;
+  }
 }
 
 .company-logo-bay {
@@ -101,14 +113,21 @@ header.header {
 
 .company-tag {
   font-weight: 300;
-  color: white;
+  color: rgba(235, 235, 235, 0.884);
   text-align: left;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
   padding-top: 3rem;
   z-index: 100;
   position: fixed;
   top: 5vw;
   left: 5vw;
+  text-align: center;
+  width: 13rem;
+
+  @media screen and (max-width: 462px) {
+    display: none;
+  }
 }
 
 .background-svg {
@@ -123,30 +142,59 @@ header.header {
 
   /* https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg */
   /* background: url("https://res.cloudinary.com/bshano/image/upload/v1535125210/Baymedia/dublin-airport-mobile.svg") no-repeat; */
-  background: url('https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg');
-  background-position: top right;
+  // background: url('https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg');
+  // background: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544397484/Baymedia/people%20photos/Brightened_1Cropped_1200_soft.svg');
+  background: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544482027/Baymedia/people%20photos/Brightened_1Cropped_1200_repatched.svg')
+    no-repeat;
+  background-position: top center;
   background-size: cover;
   z-index: 2;
-  height: 81vw;
+  height: 70vw;
   width: 100%;
+  opacity: 0.4;
+  // margin-top: 20%;
   /* height: 81vh; */
-  max-width: 80rem;
-  max-height: 50rem;
+  // max-width: 80rem;
+  max-height: 40rem;
 }
 
 @media screen and (min-width: 462px) {
   .background-svg {
     /* top: 0; */
     /* min-height: 40rem; */
-
+    margin-top: 22%;
     /* background: url("https://res.cloudinary.com/bshano/image/upload/v1535124838/Baymedia/dublin-airport-white2.svg") no-repeat; */
     background: url('https://res.cloudinary.com/bshano/image/upload/v1535118081/Baymedia/dublin-airport.svg');
+    background: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544397484/Baymedia/people%20photos/Brightened_1Cropped_1200_soft.svg')
+      no-repeat;
+    background: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544482027/Baymedia/people%20photos/Brightened_1Cropped_1200_repatched.svg')
+      no-repeat;
+    opacity: 0.9;
     background-size: contain;
   }
 }
+.background-svg {
+  @media screen and (min-width: 630px) {
+    margin-top: 22%;
+  }
 
-@media screen and (min-width: 930px) {
-  .background-svg {
+  @media screen and (min-width: 934px) {
+    margin-top: 17%;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-top: 24%;
+  }
+  @media screen and (min-width: 1104px) {
+    margin-top: 20%;
+  }
+  @media screen and (min-width: 1180px) {
+    margin-top: 16%;
+  }
+  @media screen and (min-width: 1240px) {
+    margin-top: 14%;
+  }
+  @media screen and (min-width: 1380px) {
+    margin-top: 11%;
   }
 }
 
@@ -216,16 +264,16 @@ section:nth-child(odd) {
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
-  &1 {
-    background-image: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544202181/Baymedia/people%20photos/people-airport.png');
-  }
-  &2 {
-    background-image: url('https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_300/v1543964841/Baymedia/people%20photos/lady_banner_summer.png');
-  }
-  &3 {
-    @media (min-width: 520px) {
-      display: block;
-      background-image: url('https://res.cloudinary.com/bshano/image/upload/v1544202181/Baymedia/people%20photos/people-street-dancing.png');
-    }
-  }
+  // &1 {
+  //   background-image: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544202181/Baymedia/people%20photos/people-airport.png');
+  // }
+  // &2 {
+  //   background-image: url('https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_300/v1543964841/Baymedia/people%20photos/lady_banner_summer.png');
+  // }
+  // &3 {
+  //   @media (min-width: 520px) {
+  //     display: block;
+  //     background-image: url('https://res.cloudinary.com/bshano/image/upload/v1544202181/Baymedia/people%20photos/people-street-dancing.png');
+  //   }
+  // }
 }

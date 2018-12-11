@@ -18,11 +18,11 @@ const IndexPage = () => (
     <Header bg="#6C1F22" />
     <Layout>
       <HomeSectionColmIntro />
-      <HomeSectionInstallDetails />
-      <OurClients bg1="#6C1F22" />
+      {/* <HomeSectionInstallDetails /> */}
       <HomeSectionBannerFlags />
-      <HomeSectionContactUs />
       <HomeSectionBigText />
+      <HomeSectionContactUs />
+      <OurClients bg1="#6C1F22" />
       {/* <HomeSectionWhyUs /> */}
 
       <Link to="/lamp-post-flag-banners/"> Go to page 2 </Link>

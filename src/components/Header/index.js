@@ -13,13 +13,7 @@ const Header = () => (
       </div>
       <div className="background-svg" />
     </header>
-    <div className="cta-bar1">
-      {/* <div className="people-bar"> */}
-      <div className="peoplepics peoplepics1" />
-      <div className="peoplepics peoplepics2" />
-      <div className="peoplepics peoplepics3" />
-      {/* </div> */}
-    </div>
+
     <div className="cta-bar">
       <div>Simple</div>
       <div>Elegant</div>
