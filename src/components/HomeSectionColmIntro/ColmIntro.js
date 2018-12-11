@@ -41,7 +41,7 @@ class ColmIntro extends Component {
               <Typography className="card-mugshot">
                 <img
                   alt="baymedia colm"
-                  src="https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,q_auto:best,r_60,w_120/v1541024377/colm-headshot4.jpg"
+                  src="https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,q_95,w_376/v1544564573/Baymedia/CIMG0855.jpg"
                 />
               </Typography>
 
