@@ -1,0 +1,184 @@
+.App {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header.header {
+  min-height: 59vh;
+  $hero-height: 59vh;
+
+  /* border: 2px solid white; */
+  /* background-image: linear-gradient(to right top,
+    #29aae4,
+    #009dfd,
+    #148aff,
+    #796bff,
+    #bf2bf8); */
+  background-image: linear-gradient(
+    to right top,
+    #29aae4,
+    #379fea,
+    #5692ec,
+    #7882e7,
+    #986fda
+  );
+  z-index: 1;
+  width: 100%;
+}
+
+@media screen and (min-width: 462px) {
+  header.header {
+    // min-height: 19rem;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  header.header {
+    /* min-height: 22rem; */
+  }
+}
+
+@media screen and (min-width: 640px) {
+  header.header {
+    /* min-height: 27rem; */
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header.header {
+    /* min-height: 33rem; */
+  }
+}
+
+@media screen and (min-width: 930px) {
+  header.header {
+    min-height: 76vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header.header {
+    min-height: 94vh;
+  }
+}
+
+.header-content {
+  /* padding: 1rem; */
+  position: fixed;
+  z-index: 100;
+}
+
+.company-logo {
+  color: #29aae4;
+  padding: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.63);
+  border-radius: 0;
+  /* width: 100%; */
+  /* padding: 0.2rem; */
+  text-transform: uppercase;
+  // text-align: center;
+  z-index: 101;
+  position: relative;
+  // top: 5vw;
+  // left: 5vw;
+  // text-align: center;
+  // margin: 0 auto;
+  width: 100vw;
+}
+
+@media screen and (min-width: 462px) {
+  .company-logo {
+    position: absolute;
+    width: 13rem;
+    top: 5vw;
+    left: 5vw;
+    text-align: left;
+  }
+}
+
+.company-logo-bay {
+  color: gray;
+}
+
+.company-tag {
+  font-weight: 300;
+  color: rgba(235, 235, 235, 0.884);
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  padding-top: 3rem;
+  z-index: 100;
+  position: fixed;
+  top: 5vw;
+  left: 5vw;
+  text-align: center;
+  width: 13rem;
+
+  @media screen and (max-width: 462px) {
+    display: none;
+  }
+}
+
+.home-body {
+  background-color: #f4f7f8;
+  z-index: 100;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+section {
+  padding: 2rem 1rem;
+  background-color: #f4f7f8;
+  width: 100%;
+}
+
+section:nth-child(even) {
+  background-color: #f4f7f8;
+}
+
+section:nth-child(odd) {
+  background-color: #f4f7f8;
+  /* color: #f5f5f5; */
+}
+
+.people-bar {
+  position: static;
+  bottom: 20rem;
+  z-index: 31;
+  background-repeat: no-repeat;
+}
+.peoplepics {
+  @media (max-width: 910px) {
+    display: none;
+  }
+  position: relative;
+  background-color: transparent;
+  z-index: 30;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  // &1 {
+  //   background-image: url('https://res.cloudinary.com/bshano/image/upload/f_auto/v1544202181/Baymedia/people%20photos/people-airport.png');
+  // }
+  // &2 {
+  //   background-image: url('https://res.cloudinary.com/bshano/image/upload/c_scale,f_auto,w_300/v1543964841/Baymedia/people%20photos/lady_banner_summer.png');
+  // }
+  // &3 {
+  //   @media (min-width: 520px) {
+  //     display: block;
+  //     background-image: url('https://res.cloudinary.com/bshano/image/upload/v1544202181/Baymedia/people%20photos/people-street-dancing.png');
+  //   }
+  // }
+}
