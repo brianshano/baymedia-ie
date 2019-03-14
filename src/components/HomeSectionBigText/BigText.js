@@ -14,7 +14,7 @@ const BigText = () => {
         Helping and supporting our customers through the design, purchase and
         long term care of our banners is what we are all about.
       </div>
-      <div className="bigtext__underline" />
+      {/* <div className="bigtext__underline" /> */}
     </section>
   );
 };

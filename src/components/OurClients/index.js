@@ -14,7 +14,6 @@ class OurClients extends Component {
 
   render() {
     const iconUrl = 'https://res.cloudinary.com/bshano/image/upload';
-    // const iconFx = 'c_scale,e_grayscale,f_auto,w_200';
     const iconFx = 'c_scale,f_auto,w_200';
     const clients = [
       {
@@ -49,10 +48,6 @@ class OurClients extends Component {
         name: 'daa',
         url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/daa_logo.jpg`
       },
-      // {
-      //   name: 'cluainmeala',
-      //   url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/Cluan_meala_logo.jpg`,
-      // },
       {
         name: 'dubai',
         url: `${iconUrl}/${iconFx}/v1540152499/Baymedia/client%20logos/DDF_logo.jpg`
@@ -65,7 +60,7 @@ class OurClients extends Component {
     ));
 
     return (
-      <div>
+      <div className="client-block">
         <section
           style={{
             margin: '0 auto',
@@ -75,7 +70,8 @@ class OurClients extends Component {
             justifyContent: 'space-evenly',
             alignItems: 'center',
             alignContent: 'space-around',
-            backgroundColor: '#F4F7F8'
+            backgroundColor: 'rgb(239, 239, 239)',
+            padding: '2rem'
           }}
         >
           {listItems}
