@@ -1,12 +1,13 @@
+@import 'bulma/bulma.sass';
+
+
 .background-open-banner-frame {
-  background-image: linear-gradient(
-    to left,
+  background-image: linear-gradient(to left,
     #d9e5f3,
     #bcd3ed,
     #a0c0e8,
     #83aee2,
-    #649cdc
-  );
+    #649cdc);
   padding: 0;
   margin: 0;
   position: relative;
@@ -15,6 +16,7 @@
   width: 100%;
   text-align: justify;
 }
+
 .background-open-banner-inner {
   width: 100%;
   right: 0;
@@ -29,6 +31,7 @@
   @media (max-width: 28rem) {
     height: 40rem;
   }
+
   @media (max-width: 58rem) {
     background-image: url('https://res.cloudinary.com/bshano/image/upload/o_25/v1540132607/Baymedia/people%20photos/irish-open-trans.png');
     background-size: cover;

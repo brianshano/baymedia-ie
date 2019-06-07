@@ -91,7 +91,8 @@ const Header = () => (
         /* The height of the container. Must be set, but it doesn't really matter what the value is. */
 
         height: 2.5rem;
-        text-shadow: -1px -1px 0 #0000006e, 1px -1px 0 #0000006e, -1px 1px 0 #0000006e, 1px 1px 0 #0000006e;
+        text-shadow: -1px -1px 0 #0000006e, 1px -1px 0 #0000006e,
+          -1px 1px 0 #0000006e, 1px 1px 0 #0000006e;
       }
 
       .parallax::after {
