@@ -13,7 +13,7 @@
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-transformer-csv": "^2.0.2",
     "material-ui": "^0.20.2",
-    "node-sass": "^4.9.4",
+    "node-sass": "^7.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-headroom": "^2.2.4",
